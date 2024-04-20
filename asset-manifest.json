@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/prime-program/static/css/main.d13f9895.css",
+    "main.js": "/prime-program/static/js/main.9eef8939.js",
+    "static/js/453.3dea1c4f.chunk.js": "/prime-program/static/js/453.3dea1c4f.chunk.js",
+    "static/media/fix.webp": "/prime-program/static/media/fix.b0118bd90d493a352756.webp",
+    "static/media/singleCard3.avif": "/prime-program/static/media/singleCard3.9fa530c8f20fe89a1b6a.avif",
+    "static/media/card-img-1.avif": "/prime-program/static/media/card-img-1.9e858ec9f045849e2b8c.avif",
+    "static/media/card-img-4.avif": "/prime-program/static/media/card-img-4.32467ba4e5e04ac8efed.avif",
+    "static/media/card-img-6.avif": "/prime-program/static/media/card-img-6.896f1ae416200f3bca7f.avif",
+    "static/media/singleCard2.avif": "/prime-program/static/media/singleCard2.bfd8d82ef90b1424b23c.avif",
+    "static/media/singleCard1.avif": "/prime-program/static/media/singleCard1.d08eaedc85de3f1c9d77.avif",
+    "static/media/envato-logo.png": "/prime-program/static/media/envato-logo.fc35a58c3cd89d15e825.png",
+    "static/media/card-img-3.avif": "/prime-program/static/media/card-img-3.4484684e86b76c456af6.avif",
+    "static/media/card-img-2.avif": "/prime-program/static/media/card-img-2.0cd5c54442877008a690.avif",
+    "static/media/card-img-5.avif": "/prime-program/static/media/card-img-5.0e8e524bb8e50c11122d.avif",
+    "static/media/singleCard4.avif": "/prime-program/static/media/singleCard4.df52325f534bbaa502fb.avif",
+    "index.html": "/prime-program/index.html",
+    "main.d13f9895.css.map": "/prime-program/static/css/main.d13f9895.css.map",
+    "main.9eef8939.js.map": "/prime-program/static/js/main.9eef8939.js.map",
+    "453.3dea1c4f.chunk.js.map": "/prime-program/static/js/453.3dea1c4f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d13f9895.css",
+    "static/js/main.9eef8939.js"
+  ]
+}
