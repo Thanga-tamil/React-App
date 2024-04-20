@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import React from 'react'
+import img1 from './assets/envato-logo.png'
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <nav className='navbar'>
+        <img src={img1} className='img-1' alt='img'></img>
+        <p className='title'>primeProgram</p>
+
+        <button className='bottom_Nav_content'>Sign Up</button>
+        <p className='firstName'></p>
+        <ul className='list'>
+          <li className='listItem'>Java</li>
+          <li className='listItem'>Spring Boot</li>
+          <li className='listItem'>MySql</li>
+          <li className='listItem'>Python</li>
+          <li className='listItem'>JavaScript</li>
+          <li className='listItem'>React.js</li>
+        </ul>
+      </nav>
+    </>
+  )
 }
 
-export default App;
+export default App

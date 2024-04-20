@@ -1,17 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import './index.css'
+import App from './App'
+import reportWebVitals from './reportWebVitals'
+import SearchBox from './SearchBox'
+import { Cards } from './Cards'
+import { SingleCard } from './SingleCard'
+import { Card5 } from './Card5'
+import SingleCardTow from './SingleCardTwo'
+import BtnBox from './BtnBox'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
     <App />
+    <SearchBox />
+    <Cards />
+    <SingleCard />
+    <Card5 />
+    <SingleCardTow />
+    <BtnBox />
   </React.StrictMode>
-);
+)
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+reportWebVitals()

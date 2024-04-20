@@ -1,0 +1,91 @@
+.container {
+  border: 2px solid rgb(255, 255, 255);
+  display: flex;
+  margin-top: 200px;
+  width: 200px;
+  height: 370px;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 50px;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.leftBox {
+  flex: 1; /* Take up remaining space */
+  padding: 20px;
+  text-align: left;
+}
+
+.tit_name {
+  font-size: 14px;
+}
+.tit_con {
+  font-size: 12px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: flex-end; /* Align to the right */
+  margin-right: 1px;
+  margin-top: -358px;
+}
+
+.rightBox {
+  display: flex;
+  flex-direction: column;
+  gap: 1px; /* Adjust the gap between containers */
+}
+/* .rightBox2 {
+}
+.rightContainer {
+} */
+
+.card5_1,
+.card5_2,
+.card5_3,
+.card5_4 {
+  width: 200px;
+  margin-right: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.card5_1:hover,
+.card5_2:hover,
+.card5_3:hover,
+.card5_4:hover {
+  transform: scale(1.05); /* Increase size on hover */
+}
+
+/* Card5.css */
+
+.im1-con {
+  position: relative;
+  bottom: 10px; /* Adjust as needed */
+  left: 0;
+  width: 86.8%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 10px;
+  text-align: center;
+}
+
+.cont2 {
+  font-size: 7px;
+  font-weight: 500;
+  text-align: right;
+  margin-top: -1px;
+}
+
+.cont3 {
+  font-size: 7px;
+  font-weight: 500;
+  text-align: left;
+  margin-top: -10px;
+}

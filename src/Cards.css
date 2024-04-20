@@ -1,0 +1,75 @@
+.main {
+  margin-top: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Card1 {
+  background-color: #eaeaea;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+
+  width: 190px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.Card1:hover {
+  background-color: white;
+}
+
+.Card1 img {
+  margin-top: auto;
+  width: 125px;
+  height: auto;
+  border-radius: 5px;
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  cursor: pointer;
+}
+
+.Card1:hover img {
+  transform: scale(1.1);
+}
+
+.Card1 h1 {
+  color: rgb(49, 48, 48);
+  font-size: 21px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.Card1:hover img {
+  transform: scale(1.1);
+}
+
+.plug {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.lin {
+  display: inline;
+  font-size: 9px;
+  margin-left: -25px;
+  color: rgb(107, 107, 178);
+}
+
+.btn1 {
+  margin-top: 15px;
+  padding: 3px;
+  color: white;
+  background-color: #79b530;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 5px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
